@@ -1,0 +1,126 @@
+.Container{
+    text-align: center;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.containerData {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #007bff; /* Color azul */
+    color: white;
+    display: inline-block;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.item {
+    display: flex; /* Usa flexbox para cada par h3 y botón */
+    align-items: center; /* Alinea verticalmente */
+    justify-content: space-between; /* Alinea horizontalmente */
+    margin-bottom: 5px; /* Espacio entre cada grupo */
+}
+.item h2 {
+    margin-right: 20px; /* Espacio específico a la derecha del h3 */
+}
+
+.item button {
+    margin-left: 10px; /* Espacio específico a la izquierda del botón (opcional) */
+}
+
+.button{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-add{
+    background-color: #1d72f1;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-cancel{
+    background-color: #7e7e7e;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-delete{
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-exit{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-top: 20px; /* Espacio superior */
+}
+
+th, td {
+    padding: 12px; /* Espaciado interno */
+    text-align: left; /* Alinear texto a la izquierda */
+    border: 1px solid #ddd; /* Bordes suaves */
+}
+
+th {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Texto blanco */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Color de fondo al pasar el mouse */
+}
